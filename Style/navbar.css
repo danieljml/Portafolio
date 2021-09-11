@@ -5,12 +5,17 @@
   box-shadow: 0px 0px 25px rgb(0 0 0 / 18%);
 }
 
-.navbar .logo {
-  width: 50px;
-}
-
 .navbar-brand {
   margin: 0 !important;
+}
+
+.header .icon:hover {
+  color: aqua;
+}
+
+header .icon {
+  font-size: 32px;
+  color: black;
 }
 
 .navbar-nav .nav-link {
@@ -43,9 +48,10 @@
     align-items: center;
     z-index: 122;
   }
+
   .nav__block_ux {
     display: flex;
-    width: 90%;
+    width: 95%;
     height: 65px;
     border-radius: 20px;
     border: 1px solid rgb(0 0 0 / 12%);
@@ -53,6 +59,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     box-shadow: 0px 0px 25px rgb(0 0 0 / 18%);
   }
+
   .nav_ux li {
     list-style: none;
     display: flex;
@@ -65,12 +72,10 @@
     white-space: nowrap;
   }
 
-  .icon:hover {
+  .nav_ux .icon:hover {
     color: aqua;
   }
-}
 
-@media (max-width: 576px) {
   .navbar > .container {
     display: flex !important;
     justify-content: center !important;

@@ -7,7 +7,8 @@
 }
 
 a {
-  color: black;
+  color: none !important;
+  text-decoration: none !important;
 }
 
 body {
@@ -18,16 +19,7 @@ li {
   list-style: none;
 }
 
-i {
-  width: 32px;
-  height: 32px;
-}
-
-i:before {
-  font-size: 32px;
+.icon {
+  font-size: 27px;
   color: black;
-}
-
-.bx:hover {
-  text-decoration: 1px solid aqua;
 }
