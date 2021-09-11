@@ -15,18 +15,19 @@
 
 header .icon {
   font-size: 32px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navbar-nav .nav-link {
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.5);
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.5s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #00c2cb;
+  color: rgb(0, 0, 0);
 }
 
 .navbar-nav .nav-item {
@@ -73,7 +74,7 @@ header .icon {
   }
 
   .nav_ux .icon:hover {
-    color: aqua;
+    color: rgb(0, 255, 255);
   }
 
   .navbar > .container {

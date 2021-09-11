@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Daniel-Martinez</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -9,12 +9,22 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link
+      rel="shortcut icon"
+      href="Img/code-alt-regular-36.png"
+      type="image/x-icon"
+    />
+    <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 
     <link rel="stylesheet" href="Style/global.css" />
     <link rel="stylesheet" href="Style/navbar.css" />
+    <link rel="stylesheet" href="Style/slider.css" />
     <!-- Bootstrap CSS v5.0.2 -->
     <link
       rel="stylesheet"
@@ -24,7 +34,7 @@
     />
   </head>
   <body>
-    <header class="container-fluid navbar navbar-expand-lg">
+    <header class="container-fluid navbar sticky-top navbar-expand-lg">
       <div class="container header">
         <a class="navbar-brand icon bx bx-code-alt" href="#"> </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -62,6 +72,33 @@
         </li>
       </div>
     </nav>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-img-1 slide-img">
+          <div class="swiper-text">
+            <h6>Hola, mi nombre es</h6>
+            <h1>Daniel Martinez</h1>
+          </div>
+        </div>
+        <div class="swiper-slide slide-img-2 slide-img">
+          <div class="swiper-text">
+            <h6 class="title">Hola, mi nombre es</h6>
+            <h1 class="name">Daniel Martinez</h1>
+          </div>
+        </div>
+        <div class="swiper-slide slide-img-3 slide-img">
+          <div class="swiper-text">
+            <h6>Hola, mi nombre es</h6>
+            <h1>Daniel Martinez</h1>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next bx bx-arrow-to-right"></div>
+      <div class="swiper-button-prev bx bx-arrow-from-right"></div>
+    </div>
+
+    <div></div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -73,5 +110,7 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Js/Slider.js"></script>
   </body>
 </html>
