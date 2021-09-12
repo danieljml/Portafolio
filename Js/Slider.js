@@ -10,7 +10,7 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
   navigation: {
-    nextEl: ".bx-arrow-to-right",
-    prevEl: ".bx-arrow-from-right",
+    nextEl: ".bxs-caret-right-circle",
+    prevEl: ".bxs-caret-left-circle",
   },
 });
