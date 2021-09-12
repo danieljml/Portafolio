@@ -30,8 +30,8 @@
   display: none;
 }
 
-.swiper .bx-arrow-to-right,
-.bx-arrow-from-right {
+.swiper .bxs-caret-right-circle,
+.bxs-caret-left-circle {
   color: rgb(255, 255, 255);
   font-size: 32px;
 }
@@ -55,7 +55,7 @@
 }
 
 .bx:hover {
-  color: aqua;
+  color: rgb(0, 0, 0) !important;
 }
 
 .swiper-text {
