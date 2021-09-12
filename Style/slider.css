@@ -66,6 +66,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   border: 3px solid #f1f1f1;
+  border-radius: 5px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,4 +77,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.swiper-text .name {
+  font-size: 55px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.frontend-developer {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.swiper-text .btn {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0 / 70%);
+  backdrop-filter: saturate() blur(10px);
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 18%);
+  border-radius: 18px;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+.swiper-text .btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.swiper-text .block-a .bx-right-arrow-circle {
+  font-size: 20px;
+  padding-top: 5px;
+  margin-left: 1px;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }

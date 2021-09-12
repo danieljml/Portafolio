@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +17,7 @@ a {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(205, 205, 205) !important;
 }
 
 li {
@@ -22,4 +27,11 @@ li {
 .icon {
   font-size: 27px;
   color: black;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.781);
+  font-weight: 600;
 }

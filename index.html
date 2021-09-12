@@ -8,6 +8,13 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- Add icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
     <link rel="shortcut icon" href="Img/Code-favicon.svg" type="image/x-icon" />
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
@@ -17,10 +24,11 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-
+    <!-- Add stylesheet -->
     <link rel="stylesheet" href="Style/global.css" />
     <link rel="stylesheet" href="Style/navbar.css" />
     <link rel="stylesheet" href="Style/slider.css" />
+    <link rel="stylesheet" href="Style/about.css" />
     <!-- Bootstrap CSS v5.0.2 -->
     <link
       rel="stylesheet"
@@ -31,7 +39,7 @@
   </head>
   <body>
     <header
-      id="inicio"
+      id="header"
       class="container-fluid navbar sticky-top navbar-expand-lg"
     >
       <div class="container header">
@@ -40,18 +48,16 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#inicio"
-                >Inicio</a
-              >
+              <a class="nav-link active" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
+              <a class="nav-link active" href="#">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -74,24 +80,55 @@
       </div>
     </nav>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div
+      class="swiper mySwiper"
+      data-bs-spy="scroll"
+      data-bs-target="#header"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0"
+    >
       <div class="swiper-wrapper slider">
         <div class="swiper-slide slide-img-1 slide-img">
           <div class="swiper-text">
-            <h6>Hola, mi nombre es</h6>
-            <h1>Daniel Martinez</h1>
+            <h6 class="hello">Hola, mi nombre es</h6>
+            <h1 class="name">Daniel Martinez</h1>
+            <h5 class="frontend-developer">Soy Frontend Developer</h5>
+            <div class="block-a">
+              <a
+                class="btn"
+                href="https://api.whatsapp.com/send/?phone=+584121938935&amp;text=Hola%2C+me+interesa+su+servicio+quiero+para+mi+negocio%21%21&amp;app_absent=0"
+                >Contáctame</a
+              >
+            </div>
           </div>
         </div>
         <div class="swiper-slide slide-img-2 slide-img">
           <div class="swiper-text">
-            <h6 class="title">Hola, mi nombre es</h6>
+            <h6 class="hello">Hola, mi nombre es</h6>
             <h1 class="name">Daniel Martinez</h1>
+            <h5 class="frontend-developer">Soy Frontend Developer</h5>
+            <div class="block-a">
+              <a
+                class="btn"
+                href="https://api.whatsapp.com/send/?phone=+584121938935&amp;text=Hola%2C+me+interesa+su+servicio+quiero+para+mi+negocio%21%21&amp;app_absent=0"
+                >Contáctame
+              </a>
+            </div>
           </div>
         </div>
         <div class="swiper-slide slide-img-3 slide-img">
           <div class="swiper-text">
-            <h6>Hola, mi nombre es</h6>
-            <h1>Daniel Martinez</h1>
+            <h6 class="hello">Hola, mi nombre es</h6>
+            <h1 class="name">Daniel Martinez</h1>
+            <h5 class="frontend-developer">Soy Frontend Developer</h5>
+            <div class="block-a">
+              <a
+                class="btn"
+                href="https://api.whatsapp.com/send/?phone=+584121938935&amp;text=Hola%2C+me+interesa+su+servicio+quiero+para+mi+negocio%21%21&amp;app_absent=0"
+                >Contáctame
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -99,15 +136,27 @@
       <div class="swiper-button-next bx bxs-caret-right-circle"></div>
       <div class="swiper-button-prev bx bxs-caret-left-circle"></div>
     </div>
-    <div class="About-me">
-      <div class="card text-start|center|end">
-        <img class="card-img-top" src="Img/angryimg-blue.png" alt="" />
-        <div class="card-body">
-          <h4 class="card-title">Title</h4>
-          <p class="card-text">Body</p>
+    <section class="about-me" id="about-me">
+      <div class="container">
+        <div class="row">
+          <h1 class="title text-center mt-3">ACERCA DE MI</h1>
+          <p class="text-center">INFORMACIÓN SOBRE MÍ</p>
+        </div>
+        <div class="row">
+          <img src="" alt="" srcset="" />
+          <div class="body-text"></div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- <div class="block-a">
+      mailto:danielgarrido425@gmail.com 
+      <a
+        class="btn btn-info"
+        href="https://api.whatsapp.com/send/?phone=+584121938935&amp;text=Hola%2C+me+interesa+su+servicio+quiero+para+mi+negocio%21%21&amp;app_absent=0"
+        >Contáctame <i class="far fa-long-arrow-right" aria-hidden="true"></i
+      ></a>
+    </div> -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -118,7 +167,9 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="Js/Slider.js"></script>
+    <script src="Js/slider.js"></script>
+    <script src="Js/scroll.js"></script>
   </body>
 </html>
