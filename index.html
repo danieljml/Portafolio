@@ -24,6 +24,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="loading-bar.css" />
+
     <!-- Add stylesheet -->
     <link rel="stylesheet" href="Style/global.css" />
     <link rel="stylesheet" href="Style/navbar.css" />
@@ -48,13 +50,13 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Inicio</a>
+              <a class="nav-link active" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Sobre mi</a>
+              <a class="nav-link active" href="#about">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-me">Servicios</a>
+              <a class="nav-link" href="#">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Proyectos</a>
@@ -66,10 +68,10 @@
     <nav class="nav_ux">
       <div class="nav__block_ux">
         <li>
-          <a href="" class="icon bx bx-home-alt"></a>
+          <a href="#home" class="icon bx bx-home-alt"></a>
         </li>
         <li>
-          <a href="" class="icon bx bx-user"></a>
+          <a href="#about" class="icon bx bx-user"></a>
         </li>
         <li>
           <a href="" class="icon bx bx-purchase-tag-alt"></a>
@@ -80,7 +82,7 @@
       </div>
     </nav>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" id="home">
       <div class="swiper-wrapper slider">
         <div class="swiper-slide slide-img-1 slide-img">
           <div class="swiper-text">
@@ -129,19 +131,128 @@
       <div class="swiper-button-next bx bxs-caret-right-circle"></div>
       <div class="swiper-button-prev bx bxs-caret-left-circle"></div>
     </div>
-    <section class="about-me" id="about-me">
+
+    <section id="skills" class="skills" id="about">
       <div class="container">
+        <h1 class="title text-center mt-3">ACERCA DE MI</h1>
+        <p class="text-center">INFORMACIÓN SOBRE MÍ</p>
+      </div>
+
+      <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
         <div class="row">
-          <h1 class="title text-center mt-3">ACERCA DE MI</h1>
-          <p class="text-center">INFORMACIÓN SOBRE MÍ</p>
-        </div>
-        <div class="row">
-          <img src="" alt="" srcset="" />
-          <div class="body-text"></div>
+          <div
+            class="
+              col-lg-6
+              d-flex
+              align-items-center
+              aos-init aos-animate
+              img-about
+            "
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
+            <img
+              src="Img/brooke-cagle-wKOKidNT14w-unsplash-removebg-preview.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-lg-6 pt-4 pt-lg-0 content aos-init aos-animate"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <h3>Soy Desarrollador Web</h3>
+            <p class="text-start">
+              En formación y estudiante de computación e informatica, me
+              considero una persona abierta a nuevos conocimientos y retos, con
+              muchas ganas de crear. Actualmente me estoy formando como
+              desarrollador frontend.
+            </p>
+            <div class="info">
+              <div class="list border-list text-start">
+                <label>Freelance:</label>
+                <p>Disponible</p>
+              </div>
+              <div class="list text-start">
+                <label>País:</label>
+                <p>Venezuela</p>
+              </div>
+            </div>
+            <h1 class="title text-center mt-3">HABLILIDADES</h1>
+            <div class="skills-content">
+              <div class="progress">
+                <span class="skill">HTML-100%</span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 100%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">CSS-90%</span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">JavaScript-75%</span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">React-70%</span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 70%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Figma-80%</span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <div class="ldBar label-center" data-value="35" data-preset="circle"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -154,6 +265,7 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="loading-bar.js"></script>
     <script src="Js/Swiper.js"></script>
   </body>
 </html>
