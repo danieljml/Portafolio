@@ -91,6 +91,10 @@ section {
   margin: 0 0.5rem;
 }
 
+.skills .social-icons a:hover {
+  color: white;
+}
+
 .skills .title-skills {
   margin: 25px 0px 10px 0;
 }
