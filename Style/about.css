@@ -31,10 +31,6 @@ section {
   color: #000000;
 }
 
-.skills .img-about {
-  justify-content: center;
-}
-
 .progress {
   display: flex;
   height: 1rem;
@@ -86,11 +82,24 @@ section {
   font-size: 15px;
 }
 
+.skills .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.skills .social-icons a {
+  margin: 0 0.5rem;
+}
+
 @media only screen and (max-width: 795px) {
   .img-fluid {
     border-radius: 50%;
     border: 2px solid #ffffff;
     width: 50%;
+  }
+
+  .skills .img-about {
+    justify-content: center;
   }
 
   .skills p,
