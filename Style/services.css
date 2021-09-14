@@ -1,0 +1,39 @@
+.services .boxer {
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.services .box {
+  text-align: center;
+  border: 1px solid rgb(0 0 0 / 12%);
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 18%);
+  padding: 30px;
+  margin: 10px 0;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.services .service-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.services .icon-services {
+  font-size: 32px;
+  color: black;
+  padding: 13px;
+}
+
+.box .icon {
+  background-color: rgba(255, 255, 255, 0.24);
+  margin: 15px auto 20px;
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  transition: all 0.5s ease;
+}
