@@ -1,4 +1,4 @@
-.portfolio-gallery.imagenes-cargadas {
+/* .portfolio-gallery.imagenes-cargadas {
   opacity: 1;
 }
 
@@ -42,7 +42,6 @@
   right: 0;
   border: 1px solid rgb(0 0 0 / 22%);
   box-shadow: 0 0 32px -8px #464646;
-  /* background-color: #e0dfe07a; */
   background-color: rgba(227, 232, 234, 0.75);
   backdrop-filter: saturate(180%) blur(25px);
   z-index: 1;
@@ -63,4 +62,4 @@
 .portfolio .filter-buttons {
   flex: 0 0 100%;
   max-width: 100%;
-}
+}  */
