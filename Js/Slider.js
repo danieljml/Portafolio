@@ -14,7 +14,7 @@ let swiperWrapper = document.querySelector(".swiper-wrapper");
 let fragmentSlide = "";
 
 swiperSlide.map((item) => {
-  fragmentSlide += `  <div class="swiper-slide ${item.img} slide-img">
+  fragmentSlide += `  <div Loading = "lazy" class="swiper-slide ${item.img} slide-img">
   <div class="swiper-text">
     <h6 class="hello">Hola, mi nombre es</h6>
     <h1 class="name">Daniel Martinez</h1>

@@ -30,10 +30,11 @@ let skills = document.querySelector(".skills-content");
 let fragmentSkills = "";
 
 skillList.map((item) => {
-  fragmentSkills += `<div class="progress">
+  fragmentSkills += `<div Loading = "lazy" class="progress">
     <span class="skill">${item.skill}</span>
     <div class="progress-bar-wrap">
       <div
+        Loading = "lazy"
         class="progress-bar"
         role="progressbar"
         aria-valuenow="${item.ariaValueNow}"

@@ -25,7 +25,7 @@ let servicesList = [
     icon: "bx-laptop",
     title: "Desarrollo",
     content:
-      "Construye tu producto con alguien dedicado y listo, que estarádisponible para ti a lo largo de todo el ciclo de vida del proyecto.",
+      "Construye tu producto con alguien dedicado, que estará disponible para ti a lo largo el proyecto.",
   },
 ];
 
