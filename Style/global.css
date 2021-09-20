@@ -19,6 +19,7 @@ a {
 
 body {
   background-color: rgb(205, 205, 205) !important;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
@@ -35,11 +36,6 @@ section .title {
   color: #000000;
   border-bottom: 1px solid rgba(170, 170, 170, 0.781);
   font-weight: 600;
-  font-family: "Vidaloka", serif;
-}
-
-section .row h3 {
-  font-family: "Vidaloka", serif !important;
 }
 
 ::-webkit-scrollbar {
