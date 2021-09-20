@@ -1,9 +1,3 @@
-@media screen and (max-width: 756) {
-  .projects {
-    padding: 0 0 60;
-  }
-}
-
 .cardProject {
   display: flex;
   justify-content: center;

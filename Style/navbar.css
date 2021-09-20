@@ -9,10 +9,6 @@
   margin: 0 !important;
 }
 
-.header .icon:hover {
-  color: aqua;
-}
-
 header .icon {
   font-size: 32px;
   color: rgb(0, 0, 0);
