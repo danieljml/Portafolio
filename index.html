@@ -108,7 +108,7 @@
             data-aos="fade-left"
             data-aos-delay="100"
           >
-            <h3>Soy Desarrollador Web</h3>
+            <h3 class="title">Soy Desarrollador Web</h3>
             <p class="text-start">
               En formación y estudiante de computación e informatica, me
               considero una persona abierta a nuevos conocimientos y retos, con
@@ -146,131 +146,28 @@
         </div>
       </div>
     </section> 
-    <!-- Projects
+    <!-- Projects -->
     <section class="projects" id="projects">
       <div class="container">
         <h1 class="title text-center mt-4">Proyectos</h1>
         <p class="text-center">PASIÓN, DEDICACIÓN Y MUCHO CAFÉ.</p>
         <div class="container">
-          <div class="row">
-            <div class="section-title text-center">
-              <h1>Mis Proyectos</h1>
-            </div>
-          </div>
-          <div class="row">
+          <div class="row ">
             <div class="filter-buttons">
-              <ul id="filter-btns">
-                <li class="active" data-target="all">Todos</li>
-                <li data-target="diseño" class="">Web</li>
-                <li data-target="branding" class="">Diseño</li>
+              <ul class="filter-btns d-flex">
+                <li data-target="all" class="category-item">Todos</li>
+                <li data-target="website" class="category-item">Web</li>
+                <li data-target="desing" class="category-item">Diseño</li>
+                <li data-target="video" class="category-item">Video</li>
               </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="portfolio-gallery imagenes-cargadas" id="grid">
-              <div class="item" data-id="diseño" style="display: block">
-                <div class="inner">
-                  <img
-                    src="https://i.ibb.co/Rp6LC9q/20200924-123418.png"
-                    alt="portfolio"
-                  />
-                  <div class="overlay">
-                    <h4>Tienda Online</h4>
-                    <p>HTML - CSS - JS</p>
-                    <a
-                      href="https://rockantony.000webhostapp.com/Tienda%20Online/index.php"
-                      target="_blank"
-                    >
-                      <span
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></span
-                      >Vér Página
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item" data-id="diseño" style="display: block">
-                <div class="inner">
-                  <img src="https://i.ibb.co/PTSt6DW/20210122-212730.jpg" />
-                  <div class="overlay">
-                    <h4>Poster</h4>
-                    <p>HTML - CSS</p>
-                    <a
-                      href="https://brother-antony.github.io/post/"
-                      target="_blank"
-                    >
-                      <span
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></span
-                      >Vér Página
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item" data-id="branding" style="display: block">
-                <div class="inner">
-                  <img src="" alt="portfolio" />
-                  <div class="overlay">
-                    <h4>Diseño</h4>
-                    <p>ILUSTRATOR - ADOBE XD</p>
-                    <a
-                      href="https://xd.adobe.com/view/75901132-dd08-4292-86dc-3a5b59faa5c8-20c3/"
-                      target="_blank"
-                    >
-                      <span
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></span
-                      >Vér Página
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item" data-id="diseño" style="display: block">
-                <div class="inner">
-                  <img src="img/web-guitar.png" alt="guitar" />
-                  <div class="overlay">
-                    <h4>Web</h4>
-                    <p>HTML - CSS - JS</p>
-                    <a
-                      href="https://brother-antony.github.io/Practica/"
-                      target="_blank"
-                    >
-                      <span
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></span
-                      >Vér Página
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item" data-id="branding" style="display: block">
-                <div class="inner">
-                  <img src="img/antony-diseno.png" alt="guitar" />
-                  <div class="overlay">
-                    <h4>Diseño</h4>
-                    <p>ILUSTRATOR - ADOBE XD</p>
-                    <a
-                      href="https://xd.adobe.com/view/199089e0-f6eb-4e36-aa7c-027e513c54bd-4cc3/"
-                      target="_blank"
-                    >
-                      <span
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></span
-                      >Vér Página
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div class="row cardProject">  
         </div>
       </div>
-    </section> -->
+    </section>
+   
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -284,6 +181,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="Js/Filter.js"></script>
+    <script src="Js/Projects.js"></script>
     <script src="Js/Services.js"></script>
     <script src="Js/Skills.js"></script>
     <script src="Js/Swiper.js"></script>

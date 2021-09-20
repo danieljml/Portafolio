@@ -18,6 +18,11 @@ header .icon {
   color: rgb(0, 0, 0);
 }
 
+.nav-item .active {
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
 .navbar-nav .nav-link {
   color: #757575 !important;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
