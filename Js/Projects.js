@@ -28,7 +28,7 @@ let projectsList = [
     img: "Img/Mtz-Store.png",
     h4: "Tienda Online",
     p: "HTML - CSS - JS",
-    href: "https://danieljml.github.io/First-Ecommerce/",
+    href: "",
     category: "website",
   },
   {
@@ -56,12 +56,13 @@ projectsList.map((item) => {
   fragmentProjects += `<div class="col-lg-4 col-12 cardProjects" 
   data-aos=${item.dataAos} data-aos-duration="1000" category = ${item.category}>
   <img 
+  
   Loading = "lazy"
   class="img-projects"
   src=${item.img}
   alt=""
   />
-  <div class="overlay p-5">
+  <div class="overlay">
     <h4>${item.h4}</h4>
     <p>${item.p}</p>
     <a

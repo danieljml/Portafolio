@@ -6,6 +6,31 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
+footer .info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #fcfcfc;
+}
+
+footer .info label {
+  font-size: 1.2rem;
+}
+
+footer .info p,
+a {
+  color: #999999 !important;
+}
+
+footer .info p {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+footer .info a:hover {
+  color: #d6d6d6 !important;
+}
+
 footer .logo {
   flex: 0 0 100%;
   max-width: 100%;

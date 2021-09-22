@@ -27,8 +27,8 @@ li {
 }
 
 .icon {
-  font-size: 27px;
-  color: black;
+  font-size: 27px !important;
+  color: black !important;
 }
 
 section .title {

@@ -25,7 +25,6 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
     <!-- Add stylesheet -->
     <link rel="stylesheet" href="Style/global.css" />
     <link rel="stylesheet" href="Style/navbar.css" />
@@ -43,7 +42,6 @@
     />
   </head>
   <body>
-    <!-- Header -->
     <header
       id="header" Loading = "lazy"
       class="container-fluid navbar sticky-top navbar-expand-lg"
@@ -56,7 +54,6 @@
         </div>
       </div>
     </header>
-    <!-- Nav_ux -->
     <nav Loading = "lazy" class="nav_ux">
       <div class="nav__block_ux">
         <li>
@@ -73,17 +70,23 @@
         </li>
       </div>
     </nav>
-    <!-- Swiper -->
+
     <div Loading = "lazy" class="swiper mySwiper">
       <div class="swiper-wrapper slider"></div>
       <div class="swiper-button-next bx bxs-caret-right-circle"></div>
       <div class="swiper-button-prev bx bxs-caret-left-circle"></div>
     </div>
-    <!-- Skills -->
+
     <section class="skills pb-0" id="about">
       <div class="container">
         <h1 class="title text-center mt-4">ACERCA DE MI</h1>
         <p class="text-center">INFORMACIÓN SOBRE MÍ</p>
+        <p class="text-start">
+          Soy Frontend Developer y UX designer, enfocado y listo para 
+          nuevos desafíos con muchas ganas de aprender nuevas tecnologías.
+          Entre las tecnologías que manejo se encuentran HTML5, CSS3, 
+          JavaScript, Bootstrap, React y Figma.
+        </p>
       </div>
       <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
         <div class="row">
@@ -91,7 +94,7 @@
             class="
               col-lg-6
               d-flex
-              align-items-center
+              align-items-start
               aos-init aos-animate
               img-about
             "
@@ -109,13 +112,6 @@
             data-aos="fade-left"
             data-aos-delay="100"
           >
-            <h3 class="title">Soy Desarrollador Web</h3>
-            <p class="text-start">
-              Soy Frontend Developer y UX designer, enfocado y listo para 
-              nuevos desafíos con muchas ganas de aprender nuevas tecnologías.
-              Entre las tecnologías que manejo se encuentran HTML5, CSS3, 
-              JavaScript, Bootstrap, React, y Figma.
-            </p>
             <div class="info">
               <div class="list border-list text-start">
                 <label>Freelance:</label>
@@ -126,18 +122,19 @@
                 <p>Venezuela</p>
               </div>
             </div>
-            <div class="social-icons">
-              <a href="" class="bx bxl-instagram icon"></a>
-              <a href="" class="bx bxl-facebook icon"></a>
-              <a href="" class="bx bxl-twitter icon"></a>
+            <div class="social-icons m-3">
+              <a href="#" class="bx bxl-github icon"></a>
+              <a href="#" class="bx bxl-instagram icon"></a>
+              <a href="#" class="bx bxl-facebook icon"></a>
+              <a href="#" class="bx bxl-twitter icon"></a>
             </div>
-            <h1 class="title text-center title-skills">HABILIDADES</h1>
+            <h1 class="title text-center title-skills mb-4">HABILIDADES</h1>
             <div class="skills-content" Loading = "lazy">
           </div>
         </div>
       </div>
     </section>
-    <!-- Services -->
+
     <section class="services" id="services">
       <div class="container">
         <h1 class="title text-center mt-4">Servicios de primera</h1>
@@ -147,7 +144,7 @@
         </div>
       </div>
     </section> 
-    <!-- Projects -->
+
     <section class="projects" id="projects">
       <div class="container">
         <h1 class="title text-center mt-4">Proyectos</h1>
@@ -168,31 +165,34 @@
         </div>
       </div>
     </section>
-   <!-- start footer -->
-   <footer>
-    <div class="container">
-        <div class="row">
-            <div class="logo">
-                ¿Estas interesado en mis servicios?
-            </div>
-            <p class="text-footer">Me especializo en crear sitios web elegantes y modernos. Si quieres comunicarte conmigo o estás interesado en iniciar un proyecto juntos, ponte en contacto.</p>
-            <div class="footerSocial">
-                <a href="" target="_blank" ><i class="iconFooter bx bxl-facebook"></i></a>
-                <a href="" target="_blank" ><i class='iconFooter bx bxl-instagram'></i></a>
-                <a href="" target="_blank" ><i class='iconFooter bx bxl-youtube' ></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- end footer -->
 
-<!-- start copyright -->
-<section class="copyright">
-    <div class="container">
-        <p>Daniel Martinez 2021 &copy; Todos los derechos reservados</p>
-    </div>
-</section>
-<!-- end copyright -->
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="logo">
+                  ¿Estas interesado en mis servicios?
+              </div>
+              <p class="text-footer">Me especializo en crear sitios web elegantes y modernos. Si quieres comunicarte conmigo o estás interesado en iniciar un proyecto juntos, ponte en contacto.</p>
+              <div class="info">
+                <div class="list border-list text-start">
+                  <label>Telefono:</label>
+                  <p>+584121938935</p>
+                </div>
+                <div class="list text-start">
+                  <label>Email:</label>
+                  <p><a href="mailto:danielgarrido425@gmail.com?Subject=Interesado%20en%20su%20servicio">Contactar</a></p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+    <section class="copyright">
+        <div class="container">
+            <p>Daniel Martinez 2021 &copy; Todos los derechos reservados</p>
+        </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

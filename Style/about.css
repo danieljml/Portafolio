@@ -7,6 +7,10 @@ section {
   overflow: hidden;
 }
 
+.skills {
+  font-family: "Poppins", sans-serif;
+}
+
 .img-fluid {
   border-radius: 20px;
   background-color: rgb(0, 0, 0 / 70%);
@@ -79,7 +83,7 @@ section {
   padding-right: 10px;
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.2rem;
 }
 
 .skills .social-icons {
