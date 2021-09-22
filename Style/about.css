@@ -63,6 +63,12 @@ section {
   border-radius: 10px;
 }
 
+.skills .info p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
 .progress-bar {
   display: flex;
   flex-direction: column;
@@ -83,7 +89,7 @@ section {
   padding-right: 10px;
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.01rem;
 }
 
 .skills .social-icons {
@@ -112,6 +118,11 @@ section {
 
   .skills .img-about {
     justify-content: center;
+  }
+
+  .skills p,
+  h3 {
+    text-align: center !important;
   }
 
   .skills .title-skills {

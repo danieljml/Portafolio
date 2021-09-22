@@ -14,7 +14,7 @@ footer .info {
 }
 
 footer .info label {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 footer .info p,
@@ -23,12 +23,15 @@ a {
 }
 
 footer .info p {
-  letter-spacing: 1px;
-  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 footer .info a:hover {
-  color: #d6d6d6 !important;
+  color: #fcfcfc !important;
+}
+
+footer .info .bx:hover {
+  color: #fcfcfc !important;
 }
 
 footer .logo {
@@ -60,29 +63,6 @@ footer .social {
   justify-content: center;
 }
 
-.iconFooter {
-  color: white;
-  font-size: 32px;
-  margin: 0 1.5rem;
-}
-
-.iconFooter:hover {
-  color: #757575 !important;
-}
-
-footer .social a {
-  color: #999999;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0px 12px;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-
-footer .social a:hover {
-  color: #fcfcfc;
-}
-
 .copyright {
   cursor: default;
   background-color: #232323;
@@ -95,7 +75,7 @@ footer .social a:hover {
   margin: 0;
   text-align: center;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 795px) {
