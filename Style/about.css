@@ -114,11 +114,6 @@ section {
     justify-content: center;
   }
 
-  .skills p,
-  h3 {
-    text-align: center !important;
-  }
-
   .skills .title-skills {
     margin: 60px 0;
   }
