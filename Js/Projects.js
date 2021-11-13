@@ -17,7 +17,7 @@ let projectsList = [
   },
   {
     dataAos: "fade-left",
-    img: "Img/Whatsapp-clone-1.png",
+    img: "Img/Whatsapp-clone.png",
     h4: "App-Whatsapp",
     p: "REACT JS",
     href: "https://whatsapp-clone-526b3.web.app/",
