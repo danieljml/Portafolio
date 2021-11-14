@@ -20,10 +20,19 @@ footer .info label {
 footer .info p,
 a {
   color: #999999 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bx-mail-send {
+  font-size: 26px;
+  transition: all 0.7s ease;
 }
 
 footer .info p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 550;
 }
 
 footer .info a:hover {

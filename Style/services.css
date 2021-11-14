@@ -15,6 +15,10 @@
   transition: all 0.3s ease;
 }
 
+.services .box:hover {
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
 .services .service-content {
   flex: 0 0 100%;
   max-width: 100%;
@@ -27,6 +31,8 @@
   font-size: 32px;
   color: black;
   padding: 13px;
+  cursor: pointer;
+  transition: all 0.7s ease;
 }
 
 .box .icon {

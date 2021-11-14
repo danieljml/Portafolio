@@ -23,7 +23,7 @@ swiperSlide.map((item) => {
       <a
         class="btn"
         href="https://api.whatsapp.com/send/?phone=+584121938935&amp;text=Hola%2C+me+interesa+su+servicio+para+mi+negocio%21%21&amp;app_absent=0"
-        >Contáctame</a
+        target="_blank" >CONTACTAME <i class='bx bx-send' style='color:#ffffff'  ></i></a
       >
     </div>
   </div>
