@@ -1,10 +1,10 @@
 let projectsList = [
   {
     dataAos: "fade-right",
-    img: "Img/Black-and-white.png",
-    h4: "Sitio Web",
+    img: "Img/Weather-App.png",
+    h4: "App-Clima",
     p: "REACT JS",
-    href: "https://black-and-white-solutions.github.io/",
+    href: "https://wheather-app-1eaee.web.app/",
     category: "website",
   },
   {
@@ -25,10 +25,10 @@ let projectsList = [
   },
   {
     dataAos: "fade-right",
-    img: "Img/Variedades-Monica.png",
-    h4: "Tienda Online",
-    p: "WORDPRESS",
-    href: "https://www.variedades-monica.com/",
+    img: "Img/Black-and-white.png",
+    h4: "Sitio Web",
+    p: "REACT JS",
+    href: "https://black-and-white-solutions.github.io/",
     category: "website",
   },
   {
@@ -43,7 +43,7 @@ let projectsList = [
     dataAos: "fade-left",
     img: "Img/Video-1.png",
     h4: "Video",
-    p: "FILMORA-SKETCHUP",
+    p: "FILMORA - SKETCHUP",
     href: "https://www.youtube.com/watch?v=TMT-NsjcNJw",
     category: "video",
   },
@@ -51,7 +51,7 @@ let projectsList = [
     dataAos: "fade-right",
     img: "Img/Video-2.png",
     h4: "Video",
-    p: "FILMORA-SKETCHUP",
+    p: "FILMORA - SKETCHUP",
     href: "https://www.youtube.com/watch?v=aYgIDuhjbVM",
     category: "video",
   },
@@ -69,6 +69,14 @@ let projectsList = [
     h4: "Diseño-Article",
     p: "HTML - CSS - JS",
     href: "https://danieljml.github.io/Frontend-Mentor/",
+    category: "desing",
+  },
+  {
+    dataAos: "fade-down",
+    img: "Img/Variedades-Monica.png",
+    h4: "Tienda-Online",
+    p: "WORDPRESS",
+    href: "https://www.variedades-monica.com/",
     category: "desing",
   },
 ];
