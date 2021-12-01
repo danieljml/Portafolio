@@ -72,12 +72,20 @@ let projectsList = [
     category: "desing",
   },
   {
-    dataAos: "fade-down",
+    dataAos: "fade-right",
+    img: "Img/Testimonials-grid-section-main.png",
+    h4: "Diseño-Testimonials",
+    p: "HTML - CSS",
+    href: "https://danieljml.github.io/Frontend-Mentor-Testimonials/",
+    category: "desing",
+  },
+  {
+    dataAos: "fade-left",
     img: "Img/Variedades-Monica.png",
     h4: "Tienda-Online",
     p: "WORDPRESS",
     href: "https://www.variedades-monica.com/",
-    category: "desing",
+    category: "website",
   },
 ];
 
