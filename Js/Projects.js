@@ -1,16 +1,16 @@
 let projectsList = [
   {
     dataAos: "fade-right",
-    img: "Img/Weather-App.png",
-    h4: "App-Clima",
+    img: "Img/App-Movies.png",
+    h4: "App-Movies",
     p: "REACT JS",
-    href: "https://danieljml.github.io/App-Weather/",
+    href: "https://danieljml.github.io/App-Movies/",
     category: "website",
   },
   {
     dataAos: "fade-up",
     img: "Img/App-Tareas.png",
-    h4: "App-Tareas",
+    h4: "App-To-Do-List",
     p: "REACT JS",
     href: "https://danieljml.github.io/App-Tareas/",
     category: "website",
@@ -25,10 +25,10 @@ let projectsList = [
   },
   {
     dataAos: "fade-right",
-    img: "Img/Black-and-white.png",
-    h4: "Sitio Web",
+    img: "Img/Weather-App.png",
+    h4: "App-Weather",
     p: "REACT JS",
-    href: "https://black-and-white-solutions.github.io/",
+    href: "https://danieljml.github.io/App-Weather/",
     category: "website",
   },
   {
@@ -41,22 +41,14 @@ let projectsList = [
   },
   {
     dataAos: "fade-left",
-    img: "Img/Video-1.png",
-    h4: "Video",
-    p: "FILMORA - SKETCHUP",
-    href: "https://www.youtube.com/watch?v=TMT-NsjcNJw",
-    category: "video",
+    img: "Img/Black-and-white.png",
+    h4: "Sitio Web",
+    p: "REACT JS",
+    href: "https://black-and-white-solutions.github.io/",
+    category: "website",
   },
   {
     dataAos: "fade-right",
-    img: "Img/Video-2.png",
-    h4: "Video",
-    p: "FILMORA - SKETCHUP",
-    href: "https://www.youtube.com/watch?v=aYgIDuhjbVM",
-    category: "video",
-  },
-  {
-    dataAos: "fade-up",
     img: "Img/Card-Component.png",
     h4: "Diseño-Card",
     p: "HTML - CSS",
@@ -64,7 +56,7 @@ let projectsList = [
     category: "desing",
   },
   {
-    dataAos: "fade-left",
+    dataAos: "fade-up",
     img: "Img/Article-Component.png",
     h4: "Diseño-Article",
     p: "HTML - CSS - JS",
@@ -72,7 +64,7 @@ let projectsList = [
     category: "desing",
   },
   {
-    dataAos: "fade-right",
+    dataAos: "fade-left",
     img: "Img/Testimonials-grid-section-main.png",
     h4: "Diseño-Testimonials",
     p: "HTML - CSS",
@@ -80,12 +72,28 @@ let projectsList = [
     category: "desing",
   },
   {
-    dataAos: "fade-left",
+    dataAos: "fade-right",
     img: "Img/Variedades-Monica.png",
     h4: "Tienda-Online",
     p: "WORDPRESS",
     href: "https://www.variedades-monica.com/",
     category: "website",
+  },
+  {
+    dataAos: "fade-up",
+    img: "Img/Video-1.png",
+    h4: "Video",
+    p: "FILMORA - SKETCHUP",
+    href: "https://www.youtube.com/watch?v=TMT-NsjcNJw",
+    category: "video",
+  },
+  {
+    dataAos: "fade-left",
+    img: "Img/Video-2.png",
+    h4: "Video",
+    p: "FILMORA - SKETCHUP",
+    href: "https://www.youtube.com/watch?v=aYgIDuhjbVM",
+    category: "video",
   },
 ];
 
@@ -96,7 +104,6 @@ projectsList.map((item) => {
   fragmentProjects += `<div class="col-lg-4 col-12 cardProjects" 
   data-aos=${item.dataAos} data-aos-duration="1000" category = ${item.category}>
   <img 
-  
   Loading = "lazy"
   class="img-projects"
   src=${item.img}
