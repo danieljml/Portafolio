@@ -182,7 +182,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 90%;
+  width: 80%;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -197,7 +197,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  row-gap: 8px;
+  row-gap: 12px;
 }
 
 .swiper h6 {
@@ -233,6 +233,18 @@ a {
   font-size: 32px;
 }
 
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 30px;
+  left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 30px;
+  right: auto;
+}
+
 .swiper .content__contact {
   font-family: "Poppins", sans-serif;
   color: #ffffff !important;
@@ -266,7 +278,7 @@ a {
     row-gap: 20px;
   }
   .swiper .content__contact {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
   }
   .swiper .content__welcome {
@@ -285,6 +297,16 @@ a {
   }
   .swiper .bxs-caret-right-circle,
   .bxs-caret-left-circle {
-    font-size: 25px;
+    font-size: 28px;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 10px;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 10px;
   }
 }
