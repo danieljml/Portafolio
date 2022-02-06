@@ -1,6 +1,30 @@
 let projectsList = [
   {
     dataAos: "fade-right",
+    img: "Img/App-Expenses.png",
+    h4: "App-Expenses",
+    p: "REACT JS",
+    href: "https://app-lista-gastos-425c7.web.app/",
+    category: "website",
+  },
+  {
+    dataAos: "fade-up",
+    img: "Img/Homepage-Contruction.png",
+    h4: "Homepage-Construction",
+    p: "HTML - CSS - JS",
+    href: "https://danieljml.github.io/Homepage/",
+    category: "website",
+  },
+  {
+    dataAos: "fade-left",
+    img: "Img/Testimonials-Slider.png",
+    h4: "Slider-Testimonials",
+    p: "HTML - CSS - JS",
+    href: "https://danieljml.github.io/Testimonials-Slider/",
+    category: "desing",
+  },
+  {
+    dataAos: "fade-right",
     img: "Img/App-Movies.png",
     h4: "App-Movies",
     p: "REACT JS",
